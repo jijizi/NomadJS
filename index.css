@@ -1,0 +1,70 @@
+body {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Lucida Sans Unicode';
+}
+
+.btn{
+  cursor: pointer;
+}
+.clicked{
+  color:#00FF80;
+}
+
+.form, .greeting{
+  display: none;
+  font-size: 20px;
+}
+
+.showing{
+  display:block;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
+
+.js-clock-large{
+  font-size: 150px;
+  display: inline-block;
+}
+
+.js-clock-small{
+  font-size: 50px;
+  display: inline-block;
+}
+.js-weather{
+  display: inline-block;
+}
+
+.bgImage{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+input{
+  height: 25px;
+  border: 0.5px solid #609ae9;
+}
+
+input:focus{
+  border: 0.5px solid #e3b5d5;
+  outline: 2px solid RGBA(227,181,213,0.7);
+}
+
+.box{
+  margin-top:5%
+}
+
+ul{
+  list-style:none;
+  padding-left:0px;
+  }
